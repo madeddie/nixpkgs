@@ -4,6 +4,7 @@
   fetchurl,
   pkg-config,
   gnome,
+  gsound,
   gtk4,
   wrapGAppsHook4,
   librsvg,
@@ -41,6 +42,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   buildInputs = [
+    gsound
     gtk4
     librsvg
     libadwaita
